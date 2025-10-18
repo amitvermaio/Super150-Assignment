@@ -68,7 +68,7 @@ public class MST {
             sum += edge[2];
             edgeCount++;
         }
-        if (edgeCount == V-1) break;
+        if (edgeCount == V-1) break; // coz WE NEED AT MOST V(NUMBER OF VERTICES)-1 EDGES TO CONNECT ALL THE VERTICES!
     }
     System.out.println(sum);
   }
